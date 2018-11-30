@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+	position:relative;
+}
+
+.container{
+	margin:0 auto;
+	width:95%;
+	height:100vh;
+	overflow-y: hidden;
+}
+.header{
+	font-size:3vh;
+	height:10vh;
+}
+
+.header h1{
+	text-align:center;
+	padding:2vh 2vw;
+	color:darkgreen;
+}
+
+.content{
+	height:20vh;
+	overflow-y: scroll;
+}
+
+.button-container{
+	float:right;
+	height:10vh;
+
+}
+
+.preview1{
+	visibility: visible;
+	width:0;
+	height:0;
+}
+
+.preview2{
+	visibility: :visible;
+	width:60%;
+	height:60%;
+	z-index:10;
+	position:absolute;
+	top:20%;
+	left:20%;
+
+}
+
+.videocontainer{
+	z-index:10;
+}
+
+.scannerclose{
+	position:absolute;
+	right:0;
+	top:0;
+	z-index: 20;
+	visibility: visible;
+}
+
+.scannerclose2{
+	visibility: hidden;
+}
+
+.main{
+	visibility: visible;
+}
+
+.main2{
+	visibility: hidden;
+}
