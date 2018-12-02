@@ -1,0 +1,43 @@
+/** {
+    box-sizing: border-box;
+}*/
+
+body{
+	position:relative;
+}
+
+/*.container{
+	margin:0 auto;
+}
+*/
+.header{
+	font-size:3vh;
+	height:15vh;
+}
+
+.header h1{
+	text-align:left;
+	padding:2vh 2vw;
+	color:darkgreen;
+	width: 50%;
+	float:left;
+}
+
+#mapid{
+	height:80vh;
+    width:100%;
+}
+
+.button-container button{
+	padding:0;
+	border:none;
+	margin-right:2vw;
+	background:transparent;
+	box-shadow: 0;
+}
+.button-container button img{
+	height:7vh;
+	width:5.5vh;
+}
+
+
